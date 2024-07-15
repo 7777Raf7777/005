@@ -1,6 +1,6 @@
 import requests
 
-response = requests.post("https://fastapisamba-dc4b94e92e38.herokuapp.com/predict", json={
+response = requests.post("https://rafik-api-ef6a04bb548f.herokuapp.com/predict", json={
   "model_key": "Audi",
   "mileage":151555,
   "engine_power":230,
